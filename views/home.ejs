@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('_bootstrap')%>
+</head>
+
+<body>
+    <%- include('_header')%>
+       
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/add-book.jpg" alt="image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">ADD BOOK</h5>
+                            <p class="card-text">Add New Books in Library.</p>
+                            <a href="/addBook" class="btn btn-primary">ADD Book</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/book entry.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Add Entry</h5>
+                            <p class="card-text">Add Book Taken Entry.</p>
+                            <a href="/addentry" class="btn btn-primary">Add Entry</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/book-taken.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">List Of taken books</h5>
+                            <p class="card-text">List of books taken by user.</p>
+                            <a href="/listoftakenbooks" class="btn btn-primary">List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+</body>
+
+</html>
